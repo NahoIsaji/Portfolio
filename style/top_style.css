@@ -206,9 +206,26 @@ map .contents:hover{
 	display: inline;
 	max-width: 80%;
 }
-
+.source li{
+	display: inline;
+	font-size: 20px;
+	list-style-type: none;
+	max-width: 80%;
+	padding: 5%;
+	
+}
+.source li a{
+	text-decoration: none;
+	color: black;
+}
+.source li a:hover{
+	text-decoration: underline;
+}
+.source li a:visited{
+	color: black;
+}
 .arrow{
-	cursor: poimter;
+	cursor: pointer;
 	font-size: 40px;
 	padding-right: 30px;
 	cursor: pointer;
