@@ -1,0 +1,91 @@
+/*heading: name*/
+.name{
+	color: #F1F3CE;
+	font-size: 35px;
+	text-align: center;
+	background-color: #00293C;
+	padding: 30px;
+}
+.name i, .name i:visited{
+	color: #F1F3CE;
+	padding-right: 30px;
+}
+.name i:hover{
+	color: #F62A00;
+}
+
+/*heading*/
+h2{
+	color: #1E656D;
+	font-size: 30px;
+	border-bottom: solid 5px #F1F3CE;
+	padding-top: 50px;
+}
+
+/*qualification*/
+.qualification{
+	padding: 0 80px;
+	text-align: center;
+}
+.qualification p{
+	padding: 5px 30px;
+	font-size: 20px;
+}
+
+/*skill*/
+.skill{
+	padding: 0 80px;
+	text-align: center;
+}
+table{
+	text-align: left;
+	margin: auto;
+}
+td{
+	font-size: 20px;
+	padding: 5px 20px;
+}
+
+/*experience*/
+.experience{
+	padding: 0 80px;
+}
+.experience h2{
+	text-align: center;
+}
+.co{
+	font-size: 20px;
+	margin: 0 15%;
+}
+li{
+	list-style-position: inside;
+}
+
+/*education*/
+.education{
+	padding: 0 80px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.education p{
+	font-size: 20px;
+}
+
+/*back to top link*/
+.back{
+	text-align: center;
+	margin: 50px 0;
+}
+.btn, .btn:visited{
+	background-color: #F62A00;
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	
+}
+.btn:hover{
+	background-color: #00293C;
+}
+

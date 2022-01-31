@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="style/top_style.css">
+		<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+		<script src="js/script.js"></script>
+		<title>Portfolio: Naho Isaji</title>
+	</head>
+	<body>
+		<div class="topimg_wrapper">
+			<div class="nav_wrapper">
+				<a class="fas fa-bars" id="bars" onclick="showNav();"></a>
+				<nav class="nav">
+					<ul>
+						<li class="navMenu"><a class="fas fa-bars" onclick="showNav();"></a></li>
+						<li class="navMenu"><a href="top.html">Top</a></li>
+						<li></li>
+						<li></li>
+						<li class="navMenu about"><a onclick="a_text();">About</a></li>
+						<li class="navMenu"><a href="experience.html" class="exp">Experience</a></li>
+						<li class="navMenu work"><a onclick="w_text();">Work</a></li>
+						<li class="navMenu cont"><a onclick="c_text();">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<img src="images/cactus.jpg" alt="top image" usemap="#image-map"> 
+			<map name="image-map" class="map_wrapper">
+				<a class="contents map">MAP
+					<area alt="map" title="map" coords="173,834,104" shape="circle" onclick="m_text();">
+				</a>
+				<a class="contents about">ABOUT
+					<area alt="about" title="about" coords="570,827,101" shape="circle" onclick="a_text();">
+				</a>
+				<a class="contents experience">EXPERIENCE
+					<area alt="experience" title="experience" coords="964,850,83" shape="circle" onclick="e_text();">
+				</a>
+				<a class="contents work">WORK
+					<area alt="work" title="work" coords="1347,832,104" shape="circle" onclick="w_text();">
+				</a>
+				<a class="contents contact">CONTACT
+					<area alt="contact" title="contact" coords="1773,843,96" shape="circle" onclick="c_text();">
+				</a>
+			</map>
+			<p id="greet"></p>
+			<div class="txt site_map">
+				<h3> SITE MAP</h3>
+				<ul>
+					<li onclick="a_text();">About</li>
+					<li onclick="e_text();">Experience</li>
+					<li onclick="w_text();">Work</li>
+					<li onclick="c_text();">Contact</li>
+				</ul>
+				<i class="fas fa-reply" onclick="m_text();"></i>
+			</div>
+			<div class="txt about_text" id="about_text">
+				<p>
+					<b>ABOUT ME</b><br><br>My name is Naho Isaji.<br>I am a fresh graduate from the Computer Information Systems program at 
+					Algonquin College and currently taking online coding courses to expand my coding skill sets. <br>
+					I eagerly await the opportunity to bring my education and contribute 
+					to my passion for meeting new challenges. 
+					<i class="fas fa-reply" onclick="a_text();"></i>
+				</p>
+			</div>
+			<div class="txt experience_text">
+				<p>
+					<b>EXPERIENCE</b><br><br>
+					<a href="experience.html"><img src="images/resume.png" alt="resume" class="resume_image"></a>
+					<a href="experience.html"><span class="coment">Click to see my resume</span></a>
+					<i class="fas fa-reply" onclick="e_text();"></i>
+				</p>
+			</div>
+			<div class="txt work_text">
+				<b>WORK</b><br><br>
+				<i class="fas fa-reply" onclick="w_text();"></i>
+				<ul class="slide_wrapper">
+					<li><a href="top.html"><img src="images/portfolio.png"></a></li>
+					<li><a href="The_Limonada/index.html"><img src="images/The_Limonada.png"></a></li>
+					<li><a href="Currency_converter/currency converter_top.html"><img src="images/currency_cnverter.png"></a></li>
+				</ul>
+				<a class="arrow back"><i class="fas fa-chevron-circle-left"></i></a>
+				<a class="arrow next"><i class="fas fa-chevron-circle-right"></i></a>
+			</div>
+			<div class="txt contact_text">
+				<p>
+					<b>CONTACT</b><br><br>
+					<a href="mailto:nahoisaji@yahoo.com"><i class="fas fa-envelope"></i></a>
+					<a href="https://www.linkedin.com/in/naho-isaji-a125b7229/"><i class="fab fa-linkedin"></i></a>
+					<i class="fas fa-reply" onclick="c_text();"></i>
+				</p>
+			</div>
+		</div>
+	</body>
+	<script>imageMapResize();</script>
+</html>
